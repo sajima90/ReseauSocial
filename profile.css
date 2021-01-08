@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    background-color: #6E6E6E;
+}
+
+.general{
+    display: flex;
+}
+.amis{
+    position:fixed;
+    width: 100%;
+    background-color:purple;
+    display: flex;
+    flex-direction: column;
+}
+.test{
+    height: 1500px;
+    background-color: aliceblue;
+}
+/* POUR MEYTTRE UNE DIV QUI RESTE EN HAUT FAUT METTRE position:fixed; */

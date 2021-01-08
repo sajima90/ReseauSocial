@@ -1,11 +1,10 @@
 body{
     margin: 0;
     background-color: #6E6E6E;
-    width: 100%;
 }
 
 .header1{
-    /* border-bottom: 1px solid grey; */
+    border-bottom: 1px solid grey;
     height: 75px;
     display: flex;
     align-items: center;
@@ -86,10 +85,19 @@ border: 0pX;
 }
 
 .register{
+display: flex;
+align-items: center;
+border-top: 1px solid grey;
+margin-top: 15px;
+}
+
+.check{
+    margin-top: 25px;
+}
+
+.ded{
     display: flex;
     align-items: center;
-    border-top: 1px solid grey;
-    margin-top: 15px;
 }
 
 .con{
@@ -97,7 +105,6 @@ border: 0pX;
     flex-direction: column;
     align-items: center;
     margin: 0;
-    margin-top: 10px;
 }
 
 .conn{
@@ -108,14 +115,10 @@ border: 0pX;
     height: 25px;
     width: 75px;
     margin: 0;
+    margin-bottom: 15px;
 }
 
 .conn:hover{
     background-color: #a1a2a2;
     transition: 0.15s;
 }
-.f:hover{
-    color: blue;
-}
-
-
