@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-color: #6E6E6E;
+    font-family: 'Trebuchet MS';
 }
 
 .general{
@@ -44,28 +45,44 @@ body{
     align-items: center;
     width: 200px;
     height: 693px;
+   
 }
 
 .am li{
     list-style-type: none;
-    margin: 5px;
+    margin: 4px;
    width: 90%;
    height: 50px;
    background-color: green;
    display: flex;
    align-items: center;
+   border-radius: 10px;
+}
+
+.am li:hover{
+    background-color: greenyellow;
+    transition: 0.1s;
+    
 }
 
 .chat{
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .discuter{
-    border-radius: 50px;
+    border-radius: 10px;
     border: 1px solid black;
     display: flex;
     align-items: center;
     background-color:#ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 87.1%;
+    justify-content: space-between;
+    height: 40px;
+    margin: 10px;
 }
 .am li img{
     margin: 5px;
@@ -73,16 +90,42 @@ body{
     width: 40px;
     height: 40px;
 }
-.discuter input{
-    border: 0px;
-    background-color: transparent;
-    
+
+.ajouter{
+    margin-top: 5px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    opacity: 0.8;
 }
+.ajouter:hover{
+    opacity: 0.4;
+    transition: 0.2s;
+}
+
 .am li a{
     display: block;
     text-decoration: none;
     color: #ffffff;
 }
+
+.discuter input{
+    border: 0px;
+    background-color: transparent;
+    font-size: 16px;
+}
+
 .discuter div{
     margin: 5px;
 }
+
+.envoyer{
+height: 30px;
+margin: 5px;
+}
+
+.envoyer:hover{
+    opacity: 0.7;
+    transition: 0.1s;
+}
+
