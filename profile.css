@@ -14,6 +14,7 @@ body{
     justify-content: space-between;
     background-color: grey;
     width: 100%;
+    height: 60px;
 }
 .header1 img{
     border-radius: 50%;
@@ -44,7 +45,7 @@ body{
     flex-direction: column;
     align-items: center;
     width: 200px;
-    height: 693px;
+    /* height: 693px; */
    
 }
 
@@ -79,7 +80,7 @@ body{
     background-color:#ffffff;
     position: fixed;
     bottom: 0;
-    width: 87.1%;
+    width: 85.8%;
     justify-content: space-between;
     height: 40px;
     margin: 10px;
@@ -89,6 +90,7 @@ body{
     border-radius: 50%;
     width: 40px;
     height: 40px;
+    display: block;
 }
 
 .ajouter{
@@ -97,6 +99,10 @@ body{
     width: 40px;
     height: 40px;
     opacity: 0.8;
+    background-image: url(images/croixnoir.png);
+    background-size: cover;
+    background-color: transparent;
+    border: 0px;
 }
 .ajouter:hover{
     opacity: 0.4;
@@ -122,10 +128,62 @@ body{
 .envoyer{
 height: 30px;
 margin: 5px;
+width: 30px;
+background-image: url(images/envoyer.png);
+background-size: cover;
+background-color: transparent;
+border: 0px;
 }
 
 .envoyer:hover{
     opacity: 0.7;
     transition: 0.1s;
+}
+
+.messages{
+    height: 690px;
+}
+
+/* CSS DES LI "CHAT_LI" */
+
+.general ul{
+    padding: 0;
+    margin: 0;
+}
+
+.chat_li{
+    display: flex;
+    align-items: center;
+    background-color: #6E6E6E;
+    list-style-type: none;
+    width: 100%;
+    border: 0;
+    padding: 0;
+}
+
+.div_mess img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.chat_li:hover{
+    background-color:  #585858;
+}
+
+.div_mess{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    margin-left: 15px;
+}
+
+.div_mess a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.div_mess div *{
+    margin: 4px;
 }
 
