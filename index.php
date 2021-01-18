@@ -39,13 +39,17 @@
                     </div>
                     
                 </div> -->
+                
+                <form action="cible.php" method="post">
+                   <p>
+              
 
                 <div class="email">
 
                     <p>Email</p>
                     <div class="input">
                         <img src="https://image.freepik.com/free-icon/open-envelope-with-letter_318-32670.jpg" alt="erreur d'image">
-                        <input type="email" placeholder="Email">
+                        <input type="email" placeholder="Email" value="email" >
                     </div>
 
                 </div>
@@ -54,13 +58,13 @@
                     <p>Mot de passe</p>
                     <div class="input">
                         <img src="https://image.freepik.com/free-icon/lock_318-41755.jpg" alt="erreur d'image">
-                        <input type="password" placeholder="Mot de passe">
+                        <input type="password" placeholder="Mot de passe" value="password">
                     </div>
 
                 </div>
 
                 <div class="con">
-                    <button class="conn">Envoyer</button>
+                    <input class="conn" type="submit" value="Valider" />
                 </div>
 
                 <div class="register">
@@ -69,6 +73,9 @@
 
 
                 </div>
+                    
+               </p>
+             </form>
 
 
 
