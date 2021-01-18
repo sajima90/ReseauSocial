@@ -56,7 +56,8 @@
               <h4 class="title">Connexion</h4>
               
               <ul class="headCenter" id="date_heure"></ul>
-			  <span id="date_heure"></span>
+	<span id="date_heure"></span>
+		    <script type="text/javascript">window.onload = date_heure('date_heure');</script>
            </div>
 
         </header>
