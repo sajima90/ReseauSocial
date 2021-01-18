@@ -6,44 +6,6 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Style.css">
     <title>Neverland - connexion</title>
-    <script type="text/javascript">
-	window.onload=function() {
-		horloge('date_heure');
-	};
-			function date_heure(id){
-        date = new Date;
-        annee = date.getFullYear();
-        moi = date.getMonth();
-        mois = new Array('Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Aout', 'Septembre', 'Octobre', 'Novembre', 'Décembre');
-        j = date.getDate();
-        jour = date.getDay();
-        jours = new Array('Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi');
-        h = date.getHours();
-        if(h<10)
-        {
-          h = "0"+h;
-        }
-        m = date.getMinutes();
-        if(m<10)
-        {
-          m = "0"+m;
-        }
-        s = date.getSeconds();
-        if(s<10)
-        {
-          s = "0"+s;
-        }
-        resultat = 'Nous sommes le '+jours[jour]+' '+j+' '+mois[moi]+' '+annee+' il est '+h+':'+m+':'+s;
-        document.getElementById(id).innerHTML = resultat;
-        setTimeout('date_heure("'+id+'");','1000');
-        return true;
-			}
-		</script>
-
-
-		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
     </head>
     <body>
 
@@ -77,9 +39,7 @@
                     </div>
                     
                 </div> -->
-		<ul class="headCenter" id="date_heure"></ul>
-		<span id="date_heure"></span>
-		<script type="text/javascript">window.onload = date_heure('date_heure');</script>
+
                 <div class="email">
 
                     <p>Email</p>
@@ -106,12 +66,13 @@
                 <div class="register">
 
                     <p>Pas de compte ? <a href="inscription.html" class="f"> Inscrivez vous !</a><p>
-
-                </div>
 	<?php
 	$age_du_visiteur = 17;
 	echo "Le visiteur a $age_du_visiteur ans";
 	?>
+
+                </div>
+
 
 
 
