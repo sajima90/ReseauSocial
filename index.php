@@ -9,6 +9,10 @@
 
     </head>
     <body>
+        $thib = 5;
+        <?php 
+        echo "'.$thib.'"
+        ?>
         
        
         <header class="header1">
