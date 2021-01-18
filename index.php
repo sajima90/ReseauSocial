@@ -55,9 +55,7 @@
               <h1 class="title">Neverland</h1>
               <h4 class="title">Connexion</h4>
               
-              <ul class="headCenter" id="date_heure"></ul>
-	<span id="date_heure"></span>
-		    <script type="text/javascript">window.onload = date_heure('date_heure');</script>
+
            </div>
 
         </header>
@@ -79,6 +77,9 @@
                     </div>
                     
                 </div> -->
+		<ul class="headCenter" id="date_heure"></ul>
+		<span id="date_heure"></span>
+		<script type="text/javascript">window.onload = date_heure('date_heure');</script>
                 <div class="email">
 
                     <p>Email</p>
@@ -107,6 +108,10 @@
                     <p>Pas de compte ? <a href="inscription.html" class="f"> Inscrivez vous !</a><p>
 
                 </div>
+	<?php
+	$age_du_visiteur = 17;
+	echo "Le visiteur a $age_du_visiteur ans";
+	?>
 
 
 
