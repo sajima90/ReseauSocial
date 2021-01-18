@@ -67,7 +67,7 @@
 
                 <div class="register">
 
-                   <p class="ded">Accepter la Politique de confidentialité<input type="checkbox" class="politique"></p>
+                   <p class="ded">Accepter la Politique de confidentialité<input type="checkbox" required class="politique"></p>
 
                 </div>
 
