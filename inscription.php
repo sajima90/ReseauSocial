@@ -73,6 +73,12 @@
 
                 <div class="con">
                     <input class="conn" type="submit" value="Valider" />
+                   
+                </div>
+                     
+                     
+                <div class="register">
+                    <p>Dejà un compte ? <a href="index.php" class="f"> Connexion !</a><p>
                 </div>
 
         </div>
