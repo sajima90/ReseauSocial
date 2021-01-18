@@ -49,7 +49,7 @@
                     <p>Email</p>
                     <div class="input">
                         <img src="https://image.freepik.com/free-icon/open-envelope-with-letter_318-32670.jpg" alt="erreur d'image">
-                        <input type="email" placeholder="Email" value="email" >
+                        <input type="email" placeholder="Email" name="email" >
                     </div>
 
                 </div>
@@ -58,7 +58,7 @@
                     <p>Mot de passe</p>
                     <div class="input">
                         <img src="https://image.freepik.com/free-icon/lock_318-41755.jpg" alt="erreur d'image">
-                        <input type="password" placeholder="Mot de passe" value="password">
+                        <input type="password" placeholder="Mot de passe" name="password">
                     </div>
 
                 </div>
