@@ -66,10 +66,7 @@
                 <div class="register">
 
                     <p>Pas de compte ? <a href="inscription.html" class="f"> Inscrivez vous !</a><p>
-	<?php
-	$age_du_visiteur = 17;
-	echo "Le visiteur a $age_du_visiteur ans";
-	?>
+
 
                 </div>
 
