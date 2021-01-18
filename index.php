@@ -15,7 +15,7 @@
         <header class="header1">
 
             <div>
-              <h1 class="title">J'ai pas de nom</h1>
+              <h1 class="title">Neverland</h1>
               <h4 class="title">Connexion</h4>
            </div>
 
@@ -26,9 +26,9 @@
             <div class="formulaire">
 
                 <div class="titre">
-                        <h3>Connexion a J'ai pas de nom</h3>
+                        <h3>Connexion Neverland</h3>
                 </div>
-                <div class="pseudo">
+                <!-- <div class="pseudo">
 
                     <p>Pseudo</p>
 
@@ -37,7 +37,7 @@
                         <input type="text" placeholder="Pseudo">
                     </div>
                     
-                </div>
+                </div> -->
                 <div class="email">
 
                     <p>Email</p>
