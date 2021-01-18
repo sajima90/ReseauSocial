@@ -69,7 +69,7 @@
 
                 <div class="register">
 
-                    <p>Pas de compte ? <a href="inscription.html" class="f"> Inscrivez vous !</a><p>
+                    <p>Pas de compte ? <a href="inscription.php" class="f"> Inscrivez vous !</a><p>
 
 
                 </div>
