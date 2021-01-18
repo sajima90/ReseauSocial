@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <link rel="stylesheet" href="incript.css">
-    <title>J'ai pas de nom - incription</title>
+    <title>Neverland - incription</title>
 
     </head>
     <body>
@@ -14,7 +14,7 @@
         <header class="header1">
 
             <div>
-              <h1 class="title">J'ai pas de nom</h1>
+              <h1 class="title">Neverland</h1>
               <h4 class="title">Création de compte</h4>
            </div>
 
@@ -26,7 +26,7 @@
             <div class="formulaire">
 
                 <div class="titre">
-                        <h3>Inscription à J'ai pas de nom</h3>
+                        <h3>Inscription à Neverland</h3>
                 </div>
                 <div class="pseudo">
 
@@ -34,7 +34,7 @@
 
                     <div class="input">
                         <img src="https://th.bing.com/th/id/OIP.6UvxQ_kPkwBV-zerxDw2nQHaHa?pid=Api&w=512&h=512&rs=1" alt="erreur d'image">
-                        <input type="text" placeholder="Pseudo">
+                        <input type="text" placeholder="Pseudo" name="pseudo">
                     </div>
                     
                 </div>
@@ -43,7 +43,7 @@
                     <p>Email</p>
                     <div class="input">
                         <img src="https://image.freepik.com/free-icon/open-envelope-with-letter_318-32670.jpg" alt="erreur d'image">
-                        <input type="email" placeholder="Email">
+                        <input type="email" placeholder="Email" name="email">
                     </div>
 
                 </div>
@@ -52,7 +52,7 @@
                     <p>Mot de passe</p>
                     <div class="input">
                         <img src="https://image.freepik.com/free-icon/lock_318-41755.jpg" alt="erreur d'image">
-                        <input type="password" placeholder="Mot de passe">
+                        <input type="password" placeholder="Mot de passe" name="password">
                     </div>
 
                 </div>
@@ -68,7 +68,7 @@
                 </div>
 
                 <div class="con">
-                    <button class="conn" onclick="window.location.href='profile.html'">Envoyer</button>
+                    <input class="conn" type="submit" value="Valider" />
                 </div>
 
         </div>
