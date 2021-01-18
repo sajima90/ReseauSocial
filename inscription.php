@@ -28,6 +28,10 @@
                 <div class="titre">
                         <h3>Inscription à Neverland</h3>
                 </div>
+                
+                 <form action="InscriptionCible.php" method="post">
+                   <p>
+                       
                 <div class="pseudo">
 
                     <p>Pseudo</p>
@@ -77,6 +81,10 @@
 
 
          </div>
+        
+                       
+       </p>
+      </form>
 
 
 
