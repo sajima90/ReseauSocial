@@ -38,7 +38,7 @@
 
                     <div class="input">
                         <img src="https://th.bing.com/th/id/OIP.6UvxQ_kPkwBV-zerxDw2nQHaHa?pid=Api&w=512&h=512&rs=1" alt="erreur d'image">
-                        <input type="text" placeholder="Pseudo" name="pseudo">
+                        <input type="text" placeholder="Pseudo" name="pseudo" required >
                     </div>
                     
                 </div>
@@ -47,7 +47,7 @@
                     <p>Email</p>
                     <div class="input">
                         <img src="https://image.freepik.com/free-icon/open-envelope-with-letter_318-32670.jpg" alt="erreur d'image">
-                        <input type="email" placeholder="Email" name="email">
+                        <input type="email" placeholder="Email" name="email" required>
                     </div>
 
                 </div>
@@ -56,7 +56,7 @@
                     <p>Mot de passe</p>
                     <div class="input">
                         <img src="https://image.freepik.com/free-icon/lock_318-41755.jpg" alt="erreur d'image">
-                        <input type="password" placeholder="Mot de passe" name="password">
+                        <input type="password" placeholder="Mot de passe" name="password" required>
                     </div>
 
                 </div>
