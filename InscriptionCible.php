@@ -1,3 +1,12 @@
+<p>Bonjour !</p>
+
+<p>Je sais comment tu t'appelles, hé hé. <?php echo $_POST['pseudo']; ?>
+ Ton mot de passe est <?php echo $_POST['password']; ?> !
+ ton adresse mail est <?php echo $_POST['email']; ?></p>
+
+<p>Si tu veux changer de mot de passe, <a href="inscription.php">clique ici</a> pour revenir à la page formulaire.</p>
+
+
 <?php
 $monfichier = fopen('compteur.txt', 'r+');
  
