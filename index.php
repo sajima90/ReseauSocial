@@ -75,6 +75,12 @@
 
                 </div>
                     
+                <div class="register">
+                    
+                    <p><a href="https://github.com/sajima90/ReseauSocial" class="f">Code : Sajima-Thib76</a><p>
+                    
+                </div>
+                    
                </p>
              </form>
 
