@@ -70,6 +70,7 @@
                 <div class="register">
 
                     <p>Pas de compte ? <a href="inscription.php" class="f"> Inscrivez vous !</a><p>
+                    <p>Pas de compte ? <a href="https://github.com/sajima90/ReseauSocial" class="f"> Sajima-Thib76</a><p>
 
 
                 </div>
